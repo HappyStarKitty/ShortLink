@@ -1,0 +1,11 @@
+App:
+  RunLevel: debug
+#  RunLevel: release
+
+WebServer:
+  Port: 8080
+  WriteTimeout: 10 #ms
+  ReadTimeout: 10 #ms
+
+Database:
+  DSN: root:password@tcp(localhost:3306)/short_link?charset=utf8mb4&parseTime=True&loc=Local
